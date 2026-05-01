@@ -108,10 +108,4 @@ This makes it easy to verify that a click in a known screen region maps to the e
 - `videoX` / `videoY` at the time of `pointermove` reflect `video.currentTime` at the moment the event fires. During fast playback there may be a small timing skew between the recorded position and the actual displayed frame.
 - Device pixel ratio (DPR) is not explicitly handled. On high-DPI displays `getBoundingClientRect()` returns CSS pixels which is correct for `clientX`/`clientY`, but canvas-based pixel sampling would need DPR adjustment.
 
----
-
-*Original kickoff kit README follows below.*
-4. Let Claude implement the first version.
-5. Run the tests.
-6. Keep the inevitable bugs/limitations as material for a DataAnnotation task.
 
