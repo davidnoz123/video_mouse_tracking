@@ -5,3 +5,4 @@ public/test-video.mp4
 playwright-report/
 test-results/
 *.local
+old/
