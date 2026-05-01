@@ -1,0 +1,7 @@
+node_modules/
+dist/
+public/test-video.mp4
+.playwright/
+playwright-report/
+test-results/
+*.local
